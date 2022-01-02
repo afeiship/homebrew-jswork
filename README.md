@@ -1,67 +1,41 @@
-# react-mui-checkbox
-> Checkbox for mui
+# webpack-sass-cli
+> Webpack sass plugin to be a simply cli.
 
-## properties:
-```javascript
+[![Version](https://img.shields.io/npm/v/webpack-sass-cli.svg)](https://npmjs.org/package/webpack-sass-cli)
+[![Downloads/week](https://img.shields.io/npm/dw/webpack-sass-cli.svg)](https://npmjs.org/package/webpack-sass-cli)
+[![License](https://img.shields.io/npm/l/webpack-sass-cli.svg)](https://github.com/afeiship/webpack-sass-cli/blob/master/package.json)
 
-  static propTypes = {
-    className: PropTypes.string,
-    onChange: PropTypes.func,
-  };
-
-  static defaultProps = {
-    onChange: noop
-  };
-  
+## installation
+```shell
+npm i -g @jswork/webpack-sass-cli
 ```
 
-## install && import:
-```bash
-npm install --save afeiship/react-mui-checkbox --registry=https://registry.npm.taobao.org
+## usgae
+```shell
+# 1. create config file
+wpkc -i
+
+# 2. generate dll files
+wpkc
 ```
 
-```js
-import ReactMuiCheckbox from 'react-mui-checkbox';
+## help
+```
+Generate dll files use webpack.DllPlugin.
+
+USAGE
+  $ wpkdc
+
+OPTIONS
+  -h, --help     show CLI help
+  -i, --init     Generate .webpack.dll.yml file.
+  -v, --version  show CLI version
 ```
 
-```scss
-// customize your styles:
-$react-mui-checkbox-options:(
-);
-
-@import 'node_modules/react-mui-checkbox/dist/style.scss';
-```
-
-
-## usage:
-```jsx
-
-// install: npm install afeiship/react-mui-checkbox --save
-// import : import ReactMuiCheckbox from 'react-mui-checkbox'
-
-class App extends React.Component{
-  state = {
-
-  };
-
-  constructor(props){
-    super(props);
-    window.demo = this;
-    window.refs = this.refs;
-    window.rc = this.refs.rc;
-  }
-
-  _onChange = e =>{
-    console.log(e.target.value);
-  };
-
-  render(){
-    return (
-      <div className="hello-react-mui-checkbox">
-        <ReactMuiCheckbox onChange={this._onChange} ref='rc' />
-      </div>
-    );
-  }
-}
-
+##  .webpack.sass.yml
+```yml
+name: webpack-sass-config
+config:
+  path: src/assets/libs/styles
+  entry: ./src/assets/styles/index.scss
 ```
