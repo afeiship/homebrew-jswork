@@ -1,6 +1,6 @@
 require "formula"
 
-class Cewl < Formula
+class T2k < Formula
   homepage "https://github.com/afeiship/topics2keywords"
   url "https://github.com/afeiship/topics2keywords", :using => :git
   version "1.0.1"
