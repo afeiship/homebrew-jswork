@@ -4,6 +4,7 @@ class T2k < Formula
   version "1.0.1"
 
   def install
+    system "echo", "$BASH_VERSION"
     system "npm", "i", "-g", "@jswork/topics2keywords"
   end
 
