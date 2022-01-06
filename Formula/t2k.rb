@@ -7,8 +7,7 @@ class T2k < Formula
     system "npm", "i", "-g", "@jswork/topics2keywords"
   end
 
-  def test
+  test do
     system "t2k --version"
-    system "true"
   end
 end
