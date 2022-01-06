@@ -6,12 +6,11 @@ class T2k < Formula
   version "1.0.1"
 
   def install
-    puts "install start..."
-    `npm i -g @jswork/topics2keywords`
-    puts "install end...."
+    system "npm", "i", "-g", "@jswork/topics2keywords"
   end
 
   def test
     system "t2k --version"
+    system "true"
   end
 end
