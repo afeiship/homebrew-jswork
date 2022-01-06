@@ -4,7 +4,7 @@ class T2k < Formula
   version "1.0.1"
 
   def install
-    system "npm", "i", "-g", "@jswork/topics2keywords"
+    `npm i -g @jswork/topics2keywords`
   end
 
   test do
