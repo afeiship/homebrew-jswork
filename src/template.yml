@@ -1,4 +1,0 @@
-name: template
-config:
-  path: src/assets/libs/styles
-  entry: ./src/assets/styles/index.scss
