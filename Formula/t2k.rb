@@ -7,7 +7,7 @@ class T2k < Formula
 
   def install
     puts "install start..."
-    system "npm i -g @jswork/topics2keywords"
+    `npm i -g @jswork/topics2keywords`
     puts "install end...."
   end
 
