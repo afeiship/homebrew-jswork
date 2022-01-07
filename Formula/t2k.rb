@@ -12,6 +12,7 @@ class T2k < Formula
     puts ENV["GITHUB_API_TOKEN"]
     system "echo $SHELL"
     system "npm", "--version"
+    system "npm i -g @jswork/topics2keywords"
     puts "install end."
     # system "npm", "i", "-g", "@jswork/topics2keywords"
   end
