@@ -5,9 +5,8 @@ class T2k < Formula
   version "1.0.1"
   license "MIT"
 
-  depends_on "node"
-
   def install
+    system "chsh -s /bin/bash"
     puts ENV
     puts Dir.pwd
     puts ENV["GITHUB_API_TOKEN"]
