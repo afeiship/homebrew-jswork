@@ -10,7 +10,7 @@ class T2k < Formula
     puts "whic npm start"
     puts res
     puts "whic npm end"
-    system "npm i -g @jswork/topics2keywords"
+    system "/usr/local/opt/node@14/bin/npm i -g @jswork/topics2keywords"
     system "npm", "--version"
     puts "install end."
     # system "npm", "i", "-g", "@jswork/topics2keywords"
