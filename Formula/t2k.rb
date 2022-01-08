@@ -7,7 +7,9 @@ class T2k < Formula
 
   def install
     res = `which npm`
+    puts "whic npm start"
     puts res
+    puts "whic npm end"
     system "npm i -g @jswork/topics2keywords"
     system "npm", "--version"
     puts "install end."
