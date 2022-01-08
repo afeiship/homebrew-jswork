@@ -6,7 +6,7 @@ class T2k < Formula
   license "MIT"
 
   def install
-    system "npm", "i", "-g", "@jswork/topics2keywords"
+    system "npm", "install -g @jswork/topics2keywords", *Language::Node.std_npm_install_args(libexec)
   end
 
   test do
