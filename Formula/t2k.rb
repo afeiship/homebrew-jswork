@@ -1,3 +1,5 @@
+require "language/node"
+
 class T2k < Formula
   desc "Sync github topics to npm keywords."
   homepage "https://github.com/afeiship/topics2keywords"
