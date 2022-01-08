@@ -10,7 +10,8 @@ class T2k < Formula
   depends_on "node"
 
   def install
-    system "npm", "install", "-g", "@jswork/topics2keywords", *Language::Node.std_npm_install_args(libexec)
+    system "npm i -g npm-check-updates"
+    # system "npm", "install", "-g", "npm-check-updates", *Language::Node.std_npm_install_args(libexec)
   end
 
   test do
