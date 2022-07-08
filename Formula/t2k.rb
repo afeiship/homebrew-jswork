@@ -1,7 +1,7 @@
 class T2k < Formula
   desc "Sync github topics to npm keywords."
   version "1.0.1"
-  url "git@github.com:afeiship/topics2keywords.git", :branch => "master"
+  url "https://github.com/afeiship/topics2keywords.git", :branch => "master"
 
   def install
     puts "Installing t2k..."
