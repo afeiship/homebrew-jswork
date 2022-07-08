@@ -7,7 +7,7 @@ class T2k < Formula
 
   def install
     #  安装不成功，暂时放弃。
-    system "npm", "install", "-g", "npm-check-updates", *Language::Node.std_npm_install_args(libexec)
+    system "npm", "install", "-g", "npm-check-updates"
   end
 
   test do
