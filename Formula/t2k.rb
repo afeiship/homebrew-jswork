@@ -1,11 +1,12 @@
 class T2k < Formula
   desc "Sync github topics to npm keywords."
   version "1.0.0"
+  url "git@github.com:afeiship/topics2keywords.git", :branch => "master"
 
   def install
     puts "Installing t2k..."
     #  安装不成功，暂时放弃。
-    system "npm", "install", "-g", "npm-check-updates"
+    system "npm install && npm link"
   end
 
   test do
