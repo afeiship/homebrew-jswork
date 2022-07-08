@@ -10,5 +10,6 @@ class T2k < Formula
 
   def install
     system "npm", "install", *Language::Node.std_npm_install_args(libexec)
+    system "npm", "link"
   end
 end
