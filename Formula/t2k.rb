@@ -2,7 +2,7 @@ class T2k < Formula
   desc "Sync github topics to npm keywords."
   homepage "https://github.com/afeiship/topics2keywords"
   url "https://github.com/afeiship/topics2keywords", :using => :git
-  version "1.0.2"
+  version "1.0.3"
   license "MIT"
 
   def install
