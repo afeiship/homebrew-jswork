@@ -7,8 +7,6 @@ class T2k < Formula
   version "1.0.1"
   license "MIT"
 
-  depends_on "node"
-
   def install
     #  安装不成功，暂时放弃。
     system "npm", "install", "-g", "npm-check-updates", *Language::Node.std_npm_install_args(libexec)
