@@ -6,7 +6,7 @@ class T2k < Formula
   license "MIT"
 
   def install
-    eval "$(fnm env --use-on-cd)`"
+    system "fnm", "env"
     #  安装不成功，暂时放弃。
     system "npm", "install", "-g", "npm-check-updates"
   end
