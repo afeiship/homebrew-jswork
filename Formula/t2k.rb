@@ -1,7 +1,6 @@
 class T2k < Formula
   desc "Sync github topics to npm keywords."
   version "1.0.1"
-  url "https://github.com/afeiship/topics2keywords/archive/refs/tags/1.0.1.tar.gz"
   # head "https://github.com/afeiship/topics2keywords.git", :branch => "master"
   head do
     url "https://github.com/afeiship/topics2keywords.git", :branch => "master"
@@ -14,7 +13,6 @@ class T2k < Formula
   end
 
   test do
-    system "true"
-    # system "t2k --version"
+    system "t2k --version"
   end
 end
