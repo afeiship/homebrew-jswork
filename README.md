@@ -4,4 +4,5 @@
 ## list
 ```shell
 brew install afeiship/jswork/t2k
+brew install afeiship/jswork/aliyun-cli
 ```
