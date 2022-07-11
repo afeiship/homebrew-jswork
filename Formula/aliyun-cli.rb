@@ -8,6 +8,7 @@ class AliyunCli < Formula
   license "MIT"
 
   def install
+    chmod 0755, "aliyun"
     bin.install "aliyun"
   end
 end
