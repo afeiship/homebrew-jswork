@@ -1,6 +1,8 @@
 # Documentation: https://docs.brew.sh/Formula-Cookbook
 #                https://rubydoc.brew.sh/Formula
 # PLEASE REMOVE ALL GENERATED COMMENTS BEFORE SUBMITTING YOUR PULL REQUEST!
+# https://help.aliyun.com/document_detail/139508.html
+
 class AliyunCli < Formula
   desc "Aliyun cli for ali oss."
   homepage "https://js.work"
