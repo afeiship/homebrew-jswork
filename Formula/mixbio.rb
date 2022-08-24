@@ -6,7 +6,7 @@
 class Mixbio < Formula
   desc "Mixbio cli."
   homepage "https://js.work"
-  url "https://github.com/alo7i/mixbio-cli/releases/download/v0.0.2/mixbio-cli_0.0.2_macos_amd64.tar.gz"
+  url "https://biotech-site-predict-frontend.oss-cn-hangzhou.aliyuncs.com/assets/mixbio-cli_0.0.2_macos_amd64.tar.gz"
   license "MIT"
   version "0.0.2"
 
