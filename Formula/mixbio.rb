@@ -11,7 +11,7 @@ class Mixbio < Formula
   version "0.0.1"
 
   def install
-    chmod 0755, "mixbio"
-    bin.install "mixbio"
+    chmod 0755, "mixbio-cli"
+    bin.install "mixbio-cli"
   end
 end
