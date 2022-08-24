@@ -6,12 +6,12 @@
 class Mixbio < Formula
   desc "Mixbio cli."
   homepage "https://js.work"
-  url "https://github.com/alo7i/mixbio-cli/releases/download/v0.0.1/mixbio-cli_0.0.1_Darwin_arm64.tar.gz"
+  url "https://github.91chi.fun/https://github.com//alo7i/mixbio-cli/releases/download/v0.0.2/mixbio-cli_0.0.2_macos_amd64.tar.gz"
   license "MIT"
   version "0.0.1"
 
   def install
-    chmod 0755, "mixbio-cli"
-    bin.install "mixbio-cli"
+    chmod 0755, "mixbio"
+    bin.install "mixbio"
   end
 end
