@@ -1,7 +1,7 @@
 # Documentation: https://docs.brew.sh/Formula-Cookbook
 #                https://rubydoc.brew.sh/Formula
 # PLEASE REMOVE ALL GENERATED COMMENTS BEFORE SUBMITTING YOUR PULL REQUEST!
-# https://help.aliyun.com/document_detail/139508.html
+# https://github.com/alo7i/mixbio-cli
 
 class Mixbio < Formula
   desc "Mixbio cli."
