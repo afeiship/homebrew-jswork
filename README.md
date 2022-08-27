@@ -11,4 +11,5 @@ brew install afeiship/jswork/aliyun-cli
 brew install afeiship/jswork/seqkit
 brew install afeiship/jswork/ffmpeg
 brew install afeiship/jswork/mixbio
+brew install afeiship/jswork/ytbdown
 ```
