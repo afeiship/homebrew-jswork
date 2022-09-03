@@ -6,9 +6,9 @@
 class Ytbdown < Formula
   desc "Youtube download based on youtube-dl."
   homepage "https://js.work"
-  url "https://biotech-site-predict-frontend.oss-cn-hangzhou.aliyuncs.com/assets/ytbdown_0.0.4_macos_amd64.tar.gz"
+  url "https://biotech-site-predict-frontend.oss-cn-hangzhou.aliyuncs.com/assets/ytbdown_0.0.5_macos_amd64.tar.gz"
   license "MIT"
-  version "0.0.1"
+  version "0.0.5"
 
   def install
     chmod 0755, "ytbdown"
