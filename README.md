@@ -13,3 +13,6 @@ brew install afeiship/jswork/ffmpeg
 brew install afeiship/jswork/mixbio
 brew install afeiship/jswork/ytbdown
 ```
+
+## ffmpeg maybe failed
+- https://evermeet.cx/ffmpeg/
