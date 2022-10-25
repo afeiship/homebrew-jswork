@@ -6,7 +6,7 @@
 class Ffmpeg < Formula
   desc "Static FFmpeg binaries for macOS 64-bit."
   homepage "https://js.work"
-  url "https://evermeet.cx/ffmpeg/ffmpeg-107780-g6ded80af92.zip"
+  url "https://evermeet.cx/ffmpeg/ffmpeg-108816-g874a6f2090.zip"
   license "MIT"
   version "1.0.0"
 
