@@ -11,6 +11,8 @@ class Coscli < Formula
   version "1.0.0"
 
   def install
+    # bin.install "coscli"
+    mv "coscli-mac", "coscli"
     bin.install "coscli"
   end
 end
