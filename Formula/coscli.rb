@@ -3,6 +3,8 @@
 # PLEASE REMOVE ALL GENERATED COMMENTS BEFORE SUBMITTING YOUR PULL REQUEST!
 # https://help.aliyun.com/document_detail/139508.html
 
+# https://cloud.tencent.com/document/product/436/63144
+
 class Coscli < Formula
   desc "Tencent Cloud Object Storage Command Line Interface"
   homepage "https://js.work"
