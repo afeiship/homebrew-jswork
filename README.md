@@ -14,6 +14,7 @@ brew install afeiship/jswork/mixbio
 brew install afeiship/jswork/ytbdown
 brew install afeiship/jswork/lcc
 brew install afeiship/jswork/coscli
+brew install afeiship/jswork/alo7
 ```
 
 ## ffmpeg maybe failed
