@@ -10,6 +10,14 @@ class Gfl < Formula
   license "MIT"
   version "1.0.0"
 
+  on_intel do
+    url "https://web-assets.alo7.com/assets/bins/gfl-intel.zip"
+  end
+
+  on_arm do
+    url "https://web-assets.alo7.com/assets/bins/gfl-mac.zip"
+  end
+
   def install
     bin.install "gfl"
   end
