@@ -3,7 +3,7 @@
 # PLEASE REMOVE ALL GENERATED COMMENTS BEFORE SUBMITTING YOUR PULL REQUEST!
 # https://help.aliyun.com/document_detail/139508.html
 
-class Ffmpeg < Formula
+class Gfl < Formula
   desc "Github Flow"
   homepage "https://js.work"
   url "https://web-assets.alo7.com/assets/bins/gfl.zip"
