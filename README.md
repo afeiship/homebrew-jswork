@@ -4,7 +4,7 @@
 ## installation
 ```shell
 # not work
-brew install afeiship/jswork/t2k
+# brew install afeiship/jswork/t2k
 
 # worked
 brew install afeiship/jswork/aliyun-cli
@@ -21,3 +21,14 @@ brew install afeiship/jswork/alo7
 
 ## ffmpeg maybe failed
 - https://evermeet.cx/ffmpeg/
+
+## update
+```shell
+# remove old tap
+cd /usr/local/Homebrew/Library/Taps/afeiship
+rm -rf homebrew-jswork/
+cd -
+
+# update tap
+brew install afeiship/jswork/bcl
+```
