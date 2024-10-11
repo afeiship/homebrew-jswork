@@ -3,15 +3,11 @@
   "version": "1.0.0",
   "description": "My homebrew repo.",
   "homepage": "https://js.work",
-  "author": {
-    "name": "afeiship",
-    "email": "1290657123@qq.com"
-  },
   "license": "MIT",
   "publishConfig": {
-    "registry": "https://registry.npmjs.org"
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
   },
-  "boilerplate": "homebrew-jswork",
   "repository": {
     "type": "git",
     "url": "https://github.com/afeiship/homebrew-jswork.git"
