@@ -3,6 +3,10 @@
 # PLEASE REMOVE ALL GENERATED COMMENTS BEFORE SUBMITTING YOUR PULL REQUEST!
 # https://help.aliyun.com/document_detail/139508.html
 # https://web-s3.alo7.com/assets/bins/gfl-releases/github-flow_Darwin_arm64.tar.gz
+
+# base_oss_url
+BASE_OSS_URL = "https://web-assets.alo7.com/assets/bins/gfl-releases/"
+
 class Gfl < Formula
   desc "GitHub Flow CLI"
   homepage "https://js.work"
@@ -11,9 +15,9 @@ class Gfl < Formula
 
   # ARM64 和 x86_64 下载地址
   if Hardware::CPU.arm?
-    url "https://web-assets.alo7.com/assets/bins/gfl-releases/github-flow_Darwin_arm64.tar.gz"
+    url "#{BASE_OSS_URL}github-flow_Darwin_arm64.tar.gz"
   else
-    url "https://web-assets.alo7.com/assets/bins/gfl-releases/github-flow_Darwin_x86_64.tar.gz"
+    url "#{BASE_OSS_URL}github-flow_Darwin_x86_64.tar.gz"
   end
 
   # 安装逻辑
