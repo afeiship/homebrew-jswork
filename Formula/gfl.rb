@@ -2,7 +2,7 @@
 #                https://rubydoc.brew.sh/Formula
 # PLEASE REMOVE ALL GENERATED COMMENTS BEFORE SUBMITTING YOUR PULL REQUEST!
 # https://help.aliyun.com/document_detail/139508.html
-
+# https://web-s3.alo7.com/assets/bins/gfl-releases/github-flow_Darwin_arm64.tar.gz
 class Gfl < Formula
   desc "GitHub Flow CLI"
   homepage "https://js.work"
@@ -11,9 +11,9 @@ class Gfl < Formula
 
   # ARM64 和 x86_64 下载地址
   if Hardware::CPU.arm?
-    url "https://github.com/aric-go/github-flow/releases/download/v1.0.3/github-flow_Darwin_arm64.tar.gz"
+    url "https://web-s3.alo7.com/assets/bins/gfl-releases/github-flow_Darwin_arm64.tar.gz"
   else
-    url "https://github.com/aric-go/github-flow/releases/download/v1.0.3/github-flow_Darwin_x86_64.tar.gz"
+    url "https://web-s3.alo7.com/assets/bins/gfl-releases/github-flow_Darwin_x86_64.tar.gz"
   end
 
   # 安装逻辑
