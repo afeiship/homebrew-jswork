@@ -4,21 +4,25 @@
 # https://help.aliyun.com/document_detail/139508.html
 
 class Gfl < Formula
-  desc "Github Flow"
+  desc "GitHub Flow CLI"
   homepage "https://js.work"
-  url "https://web-assets.alo7.com/assets/bins/gfl.zip"
-  license "MIT"
-  version "1.0.0"
+  version "v1.0.0" # 替换为你的最新版本号
+  license "MIT" # 如果有其他许可协议，请修改
 
-  on_intel do
-    url "https://web-assets.alo7.com/assets/bins/gfl-intel.zip"
+  # ARM64 和 x86_64 下载地址
+  if Hardware::CPU.arm?
+    url "https://github.com/aric-go/github-flow/releases/download/v1.0.3/github-flow_Darwin_arm64.tar.gz"
+  else
+    url "https://github.com/aric-go/github-flow/releases/download/v1.0.3/github-flow_Darwin_x86_64.tar.gz"
   end
 
-  on_arm do
-    url "https://web-assets.alo7.com/assets/bins/gfl-mac.zip"
-  end
-
+  # 安装逻辑
   def install
-    bin.install "gfl"
+    bin.install "gfl" # 二进制文件名
+  end
+
+  # 可选：定义如何测试
+  test do
+    system "#{bin}/gfl", "--help"
   end
 end
