@@ -11,9 +11,9 @@ class Gfl < Formula
 
   # ARM64 和 x86_64 下载地址
   if Hardware::CPU.arm?
-    url "https://web-s3.alo7.com/assets/bins/gfl-releases/github-flow_Darwin_arm64.tar.gz"
+    url "https://web-assets.alo7.com/assets/bins/gfl-releases/github-flow_Darwin_arm64.tar.gz"
   else
-    url "https://web-s3.alo7.com/assets/bins/gfl-releases/github-flow_Darwin_x86_64.tar.gz"
+    url "https://web-assets.alo7.com/assets/bins/gfl-releases/github-flow_Darwin_x86_64.tar.gz"
   end
 
   # 安装逻辑
