@@ -18,7 +18,7 @@ class Gfl < Formula
 
   # 安装逻辑
   def install
-    bin.install "gfl" # 二进制文件名
+    bin.install "github-flow", "gfl" # 二进制文件名
   end
 
   # 可选：定义如何测试
