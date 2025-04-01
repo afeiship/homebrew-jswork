@@ -3,12 +3,12 @@
 # PLEASE REMOVE ALL GENERATED COMMENTS BEFORE SUBMITTING YOUR PULL REQUEST!
 # https://help.aliyun.com/document_detail/139508.html
 
-class guc < Formula
+class Guc < Formula
   desc "Github Flow"
   homepage "https://js.work"
-  # url "https://web-assets.alo7.com/assets/bins/guc/guc"
+  url "https://github.com/aric-go/guc"
   license "MIT"
-  # version "1.0.0"
+  version "1.0.0"
 
   on_arm do
     url "https://web-assets.alo7.com/assets/bins/guc/guc.zip"
