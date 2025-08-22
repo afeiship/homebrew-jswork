@@ -14,10 +14,18 @@ class Dsr < Formula
   license "MIT" # 如果有其他许可协议，请修改
 
   # ARM64 和 x86_64 下载地址
-  if Hardware::CPU.arm?
-    url "#{BASE_OSS_URL}dsr_Darwin_arm64.tar.gz"
-  else
+  # if Hardware::CPU.arm?
+  #   url "#{BASE_OSS_URL}dsr_Darwin_arm64.tar.gz"
+  # else
+  #   url "#{BASE_OSS_URL}dsr_Darwin_x86_64.tar.gz"
+  # end
+
+  on_intel do
     url "#{BASE_OSS_URL}dsr_Darwin_x86_64.tar.gz"
+  end
+
+  on_arm do
+    url "#{BASE_OSS_URL}dsr_Darwin_arm64.tar.gz"
   end
 
   def install
