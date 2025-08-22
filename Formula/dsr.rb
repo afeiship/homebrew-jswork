@@ -20,6 +20,11 @@ class Dsr < Formula
     url "#{BASE_OSS_URL}dsr_Darwin_x86_64.tar.gz"
   end
 
+  def install
+    chmod 0755, "dsr"
+    bin.install "dsr"
+  end
+
   # 可选：定义如何测试
   test do
     system "#{bin}/dsr", "--help"
