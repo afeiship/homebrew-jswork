@@ -5,25 +5,17 @@
 # https://web-s3.alo7.com/assets/bins/gfl-releases/github-flow_Darwin_arm64.tar.gz
 
 # base_oss_url
+# https://github.com/aric-go/gfl/releases/download/v1.0.8/gfl_Darwin_arm64.tar.gz
 BASE_OSS_URL = "https://web-assets.alo7.com/assets/bins/gfl-releases/"
 
 class Gfl < Formula
   desc "GitHub Flow CLI"
   homepage "https://js.work"
-  version "v1.0.0" # 替换为你的最新版本号
+  version "v1.0.8"
   license "MIT" # 如果有其他许可协议，请修改
 
-  # ARM64 和 x86_64 下载地址
-  if Hardware::CPU.arm?
-    url "#{BASE_OSS_URL}github-flow_Darwin_arm64.tar.gz"
-  else
-    url "#{BASE_OSS_URL}github-flow_Darwin_x86_64.tar.gz"
-  end
-
-  # 安装逻辑
-  def install
-    bin.install "github-flow" => "gfl"
-  end
+  # ARM64 下载地址
+  url "https://github.com/aric-go/gfl/releases/download/v1.0.8/gfl_Darwin_arm64.tar.gz"
 
   # 可选：定义如何测试
   test do
