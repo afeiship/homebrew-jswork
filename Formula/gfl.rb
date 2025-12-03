@@ -6,7 +6,6 @@
 
 # base_oss_url
 # https://github.com/aric-go/gfl/releases/download/v1.0.8/gfl_Darwin_arm64.tar.gz
-BASE_OSS_URL = "https://web-assets.alo7.com/assets/bins/gfl-releases/"
 
 class Gfl < Formula
   desc "GitHub Flow CLI"
