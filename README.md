@@ -12,6 +12,7 @@ brew install afeiship/jswork/seqkit
 brew install afeiship/jswork/ffmpeg
 brew install afeiship/jswork/gfl
 brew install afeiship/jswork/guc
+brew install afeiship/jswork/gtc
 brew install afeiship/jswork/bcl
 brew install afeiship/jswork/mixbio
 brew install afeiship/jswork/ytbdown
