@@ -1,12 +1,12 @@
 class Gtc < Formula
   desc "Github/gitlab trigger cli."
   homepage "https://js.work"
-  url "https://elp-beta.oss-cn-hangzhou.aliyuncs.com/apps/bins/gtc/1.0.17/gtc-darwin-arm64"
+  url "https://elp-beta.oss-cn-hangzhou.aliyuncs.com/apps/bins/gtc/1.0.18/gtc-darwin-arm64"
   license "MIT"
-  version "1.0.17"
+  version "1.0.18"
 
   on_intel do
-    url "https://elp-beta.oss-cn-hangzhou.aliyuncs.com/apps/bins/gtc/1.0.17/gtc-darwin-amd64"
+    url "https://elp-beta.oss-cn-hangzhou.aliyuncs.com/apps/bins/gtc/1.0.18/gtc-darwin-amd64"
   end
 
   def install
